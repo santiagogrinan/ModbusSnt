@@ -29,6 +29,13 @@ namespace ModbusSnt
         //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
 
         //=====================================================================
+        /// <summary>
+        /// to-do
+        /// </summary>
+        /// <param name="idTransaction"></param>
+        /// <param name="idUnit"></param>
+        /// <param name="pdu"></param>
+        /// <returns></returns>
         public override byte[] SendReceiveMessage(ushort idTransaction, byte idUnit, byte[] pdu)
         {
             throw new NotImplementedException();
